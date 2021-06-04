@@ -15,7 +15,7 @@ yum install tftp-server dhcp sylinux vsftpd
 cd /use/lib/systemd/system
 gedit tftp.service
 #修改路徑到 /tftpboot(圖)
-
+![image](https://github.com/sleepy9487/linux1/blob/master/linux%20images/pxe%20tftpserver.JPG)
 cp tftp.service /root/tftp.service.orig
 5.
 #建立tftpboot
