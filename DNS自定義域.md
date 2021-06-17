@@ -27,7 +27,19 @@
 EX:nslookup www.b.com IP  
 
 自定義反解域  
-1.
-註:檢查自定義域有沒有問題  
+1.  
+#在/etc/named.rfc1912.zones新增zone  
+#註 : 反定義命名 IP相反+.in-addr.arpa  
+
+2.  
+#在原本正解域 b.com.zone進行修改  
+
+3.    
+#在/var/named/新增56.168.192-in-addr.arpa.zone  
+
+4.  
+#重新啟動服務  
+systemctl restart named
+#註:檢查自定義域有沒有問題  
 named-checkzone +zone +檔案位址  
-EX : named-check b.com /var/named/b.com.zone
+EX : named-check b.com /var/named/b.com.zone  
