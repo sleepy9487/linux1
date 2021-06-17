@@ -50,4 +50,5 @@ gedit /tftpboot/pxelinux.cfg/default(圖)
 10.重啟服務  
 systemctl restart dhcpd tftp vsftpd  
 
-註:關閉防火牆與selinux  
+註:關閉防火牆與selinux 
+註2(超重要):系統開機順序記得網路>硬碟 不然一進去就強制找硬碟 
