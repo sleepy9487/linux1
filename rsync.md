@@ -15,12 +15,12 @@ netstat -tunlp | grep 873
 2.  
 #主rsync  
 #修改 /etc/rsyncd.conf  
-
+![image](https://github.com/sleepy9487/linux1/blob/master/linux%20images/rsync-rsyncd.conf)  
 
 #新增一個 backup資料夾  
 #新增一個 rsync.passwd  
 #新增 vuser1密碼  
-
+i[image](https://github.com/sleepy9487/linux1/blob/master/linux%20images/rsync-backup.JPG)  
 
 
 3.  
@@ -28,7 +28,7 @@ netstat -tunlp | grep 873
 #新增一個test資料夾  
 #新增a~e.txt (用touch)  
 touch {a..e}.txt  
-
+![image](https://github.com/sleepy9487/linux1/blob/master/linux%20images/rsync-test.JPG)  
 
 
 4.
