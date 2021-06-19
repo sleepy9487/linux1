@@ -1,0 +1,9 @@
+playbook.yml範本  
+
+執行單項任務  
+ansible-playbook playbook.yml -t "install memcached" (任務名稱)  
+結果  
+
+忽略某項任務
+ansible-playbook playbook.yml --skip-tags "configured_memcache"  
+結果  
