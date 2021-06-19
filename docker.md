@@ -10,6 +10,7 @@ docker pull httpd
 
 #檢查有無下載成功  
 docker images  
+![image](https://github.com/sleepy9487/linux1/blob/master/linux%20images/docker%20image.JPG)  
 
 #docker啟動image  
 docker run -itd centos:7 /bin/bash  
@@ -18,6 +19,7 @@ docker run -itd -p 8082:80 httpd
 
 #點入httpd的成功畫面  
 http://IP:8082  
+![image](https://github.com/sleepy9487/linux1/blob/master/linux%20images/docker%20httpd.JPG)  
 
 3.  
 #在未關閉docker的情況下離開docker  
@@ -48,9 +50,9 @@ docker ps
 #複製container並重新命名  
 docker commit /new_name/new_server:new_tag  
 #new_name=帳號  
-
 #確認有無成功  
 docker images  
+![image](https://github.com/sleepy9487/linux1/blob/master/linux%20images/docker%20commit.JPG)  
 
 6.  
 ##將image 上傳到自己的docker裡面  
@@ -59,5 +61,6 @@ docker login
 
 #上傳  
 docker push new_name/new_server:new_tag  
+![image](https://github.com/sleepy9487/linux1/blob/master/linux%20images/docker%20push%202.JPG)  
 #註: push的上傳格式其實是 dockerhub/new_name/new_server:new_tag  
 只是docker hub可以省略  
