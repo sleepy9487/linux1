@@ -18,9 +18,14 @@ cp /etc/httpd/conf/httpd.conf /home/user/text-ansible/example1
 #設定playbook.yml  
 gedit playbook.yml  
 
-##2.
-#project2 用ansible安裝 httpd跟ftp
-#設定playbook.yml
-#執行
+##2.  
+#project2 用ansible安裝 httpd跟ftp  
+#設定playbook.yml  
+#執行  
 
-##3.
+##3.  
+#project3 playbook.yml的app1,2引用var_public.yml的wget跟gedit安裝  
+#設定playbook.yml  
+#執行  
+
+##4.  
