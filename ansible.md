@@ -18,7 +18,8 @@ cp /etc/httpd/conf/httpd.conf /home/user/text-ansible/example1
 #設定playbook.yml  
 gedit playbook.yml  
 
-##2.  
+##2. 
+
 #project2 用ansible安裝 httpd跟ftp  
 #設定playbook.yml  
 #執行  
