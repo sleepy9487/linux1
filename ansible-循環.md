@@ -1,0 +1,14 @@
+* 今天ansible如果要每安裝一個軟體就要寫一個腳本會過於繁複  
+* 用循環的寫法就可以讓她一個一個下去安裝  
+
+# Playbook1 vs Playbook2  
+* 利用Playbook1的寫法可以自定義 pack這個字的稱呼  
+* 底下的 -wget -curl可以無限寫下去  
+![image](https://github.com/sleepy9487/linux1/blob/master/linux%20images/ansible-%E5%BE%AA%E7%92%B0-playbook1.JPG)  
+* 而Playbook2的item為關鍵單詞 不可替換  
+* 下面的語句要銜接with_items  
+![image](https://github.com/sleepy9487/linux1/blob/master/linux%20images/ansible-%E5%BE%AA%E7%92%B0-playbook2.JPG)  
+# Playbook3 item的另一種用法  
+* 第一部份加入rd,sales
+* 第二部份猶如字典一般加入user+類別
+![image](https://github.com/sleepy9487/linux1/blob/master/linux%20images/ansible-%E5%BE%AA%E7%92%B0-playbook3.JPG)
