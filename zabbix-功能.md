@@ -8,17 +8,17 @@
 * IP=要監視的主機IP  
 ![image]()  
 
-##切換到templates  
-Template為預設的監視模板  
-我們實驗都是用linux +windows  
-所以採用template OS Linux  
+* 切換到templates  
+  * Template為預設的監視模板  
+  * 我們實驗都是用linux +windows  
+    所以採用template OS Linux  
 ![image]()  
 
-##新增Groups  
+# 新增Groups  
 到Configuration/Host groups 點擊右上角Create Host Group  
 
 
-##圖形化監控  
-比較正統的監控方式是點選moniotring的graph  
-去點選要監看的Group,item跟時間範圍  
+# 圖形化監控  
+* 比較正統的監控方式是點選moniotring的graph  
+* 去點選要監看的Group,item跟時間範圍  
 ![image]()
